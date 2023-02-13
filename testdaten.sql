@@ -1,0 +1,78 @@
+--------------------------------------------------------
+--  File created - Monday-February-13-2023   
+--------------------------------------------------------
+
+Create table RANGES(
+RANGES_ID int primary key, 
+FK_SIM int not null, 
+RFROM int not null, 
+RTO int not null
+);
+
+Insert into RANGES (RANGES_ID,FK_SIM,RFROM,RTO) values (1,1,1,5);
+Insert into RANGES (RANGES_ID,FK_SIM,RFROM,RTO) values (2,1,7,325);
+Insert into RANGES (RANGES_ID,FK_SIM,RFROM,RTO) values (3,1,15,700);
+Insert into RANGES (RANGES_ID,FK_SIM,RFROM,RTO) values (4,1,678,1250);
+Insert into RANGES (RANGES_ID,FK_SIM,RFROM,RTO) values (5,1,3000,3050);
+Insert into RANGES (RANGES_ID,FK_SIM,RFROM,RTO) values (6,1,3020,3040);
+Insert into RANGES (RANGES_ID,FK_SIM,RFROM,RTO) values (7,1,3010,3029);
+Insert into RANGES (RANGES_ID,FK_SIM,RFROM,RTO) values (8,1,3011,3020);
+Insert into RANGES (RANGES_ID,FK_SIM,RFROM,RTO) values (9,1,5116,5180);
+Insert into RANGES (RANGES_ID,FK_SIM,RFROM,RTO) values (10,4,5,9);
+Insert into RANGES (RANGES_ID,FK_SIM,RFROM,RTO) values (11,4,11,329);
+Insert into RANGES (RANGES_ID,FK_SIM,RFROM,RTO) values (12,4,19,704);
+Insert into RANGES (RANGES_ID,FK_SIM,RFROM,RTO) values (13,4,682,1254);
+Insert into RANGES (RANGES_ID,FK_SIM,RFROM,RTO) values (14,4,3004,3054);
+Insert into RANGES (RANGES_ID,FK_SIM,RFROM,RTO) values (15,4,3024,3044);
+Insert into RANGES (RANGES_ID,FK_SIM,RFROM,RTO) values (16,4,3014,3033);
+Insert into RANGES (RANGES_ID,FK_SIM,RFROM,RTO) values (17,4,3015,3024);
+Insert into RANGES (RANGES_ID,FK_SIM,RFROM,RTO) values (18,4,5120,5184);
+Insert into RANGES (RANGES_ID,FK_SIM,RFROM,RTO) values (19,8,2,10);
+Insert into RANGES (RANGES_ID,FK_SIM,RFROM,RTO) values (20,8,14,650);
+Insert into RANGES (RANGES_ID,FK_SIM,RFROM,RTO) values (21,8,30,1400);
+Insert into RANGES (RANGES_ID,FK_SIM,RFROM,RTO) values (22,8,1356,2500);
+Insert into RANGES (RANGES_ID,FK_SIM,RFROM,RTO) values (23,8,6000,6100);
+Insert into RANGES (RANGES_ID,FK_SIM,RFROM,RTO) values (24,8,6040,6080);
+Insert into RANGES (RANGES_ID,FK_SIM,RFROM,RTO) values (25,8,6020,6058);
+Insert into RANGES (RANGES_ID,FK_SIM,RFROM,RTO) values (26,8,6022,6040);
+Insert into RANGES (RANGES_ID,FK_SIM,RFROM,RTO) values (27,8,10232,10360);
+Insert into RANGES (RANGES_ID,FK_SIM,RFROM,RTO) values (28,16,1,13);
+Insert into RANGES (RANGES_ID,FK_SIM,RFROM,RTO) values (29,16,19,973);
+Insert into RANGES (RANGES_ID,FK_SIM,RFROM,RTO) values (30,16,43,2098);
+Insert into RANGES (RANGES_ID,FK_SIM,RFROM,RTO) values (31,16,2032,3748);
+Insert into RANGES (RANGES_ID,FK_SIM,RFROM,RTO) values (32,16,8998,9148);
+Insert into RANGES (RANGES_ID,FK_SIM,RFROM,RTO) values (33,16,9058,9118);
+Insert into RANGES (RANGES_ID,FK_SIM,RFROM,RTO) values (34,16,9028,9085);
+Insert into RANGES (RANGES_ID,FK_SIM,RFROM,RTO) values (35,16,9031,9058);
+Insert into RANGES (RANGES_ID,FK_SIM,RFROM,RTO) values (36,16,15346,15538);
+Insert into RANGES (RANGES_ID,FK_SIM,RFROM,RTO) values (37,22,32,52);
+Insert into RANGES (RANGES_ID,FK_SIM,RFROM,RTO) values (38,22,62,1652);
+Insert into RANGES (RANGES_ID,FK_SIM,RFROM,RTO) values (39,22,102,3527);
+Insert into RANGES (RANGES_ID,FK_SIM,RFROM,RTO) values (43,22,15077,15172);
+Insert into RANGES (RANGES_ID,FK_SIM,RFROM,RTO) values (44,22,15082,15127);
+Insert into RANGES (RANGES_ID,FK_SIM,RFROM,RTO) values (45,22,25607,25927);
+Insert into RANGES (RANGES_ID,FK_SIM,RFROM,RTO) values (40,22,3417,6277);
+Insert into RANGES (RANGES_ID,FK_SIM,RFROM,RTO) values (41,22,15027,15277);
+Insert into RANGES (RANGES_ID,FK_SIM,RFROM,RTO) values (42,22,15127,15227);
+Insert into RANGES (RANGES_ID,FK_SIM,RFROM,RTO) values (46,25,10,30);
+Insert into RANGES (RANGES_ID,FK_SIM,RFROM,RTO) values (47,25,40,1630);
+Insert into RANGES (RANGES_ID,FK_SIM,RFROM,RTO) values (48,25,80,3505);
+Insert into RANGES (RANGES_ID,FK_SIM,RFROM,RTO) values (49,25,3395,6255);
+Insert into RANGES (RANGES_ID,FK_SIM,RFROM,RTO) values (50,25,15005,15255);
+Insert into RANGES (RANGES_ID,FK_SIM,RFROM,RTO) values (51,25,15105,15205);
+Insert into RANGES (RANGES_ID,FK_SIM,RFROM,RTO) values (52,25,15055,15150);
+Insert into RANGES (RANGES_ID,FK_SIM,RFROM,RTO) values (53,25,15060,15105);
+Insert into RANGES (RANGES_ID,FK_SIM,RFROM,RTO) values (54,25,25585,25905);
+Insert into RANGES (RANGES_ID,FK_SIM,RFROM,RTO) values (55,32,3,20);
+Insert into RANGES (RANGES_ID,FK_SIM,RFROM,RTO) values (56,32,21,1300);
+Insert into RANGES (RANGES_ID,FK_SIM,RFROM,RTO) values (57,32,45,2800);
+Insert into RANGES (RANGES_ID,FK_SIM,RFROM,RTO) values (58,32,2034,5000);
+Insert into RANGES (RANGES_ID,FK_SIM,RFROM,RTO) values (59,32,9000,12200);
+Insert into RANGES (RANGES_ID,FK_SIM,RFROM,RTO) values (60,32,9060,12160);
+Insert into RANGES (RANGES_ID,FK_SIM,RFROM,RTO) values (61,32,9030,12116);
+Insert into RANGES (RANGES_ID,FK_SIM,RFROM,RTO) values (62,32,9033,12080);
+Insert into RANGES (RANGES_ID,FK_SIM,RFROM,RTO) values (63,32,15348,20720);
+
+update ranges set rfrom=2 where rfrom=1;
+
+commit;
